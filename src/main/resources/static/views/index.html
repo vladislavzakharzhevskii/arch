@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta  charset="UTF-8">
     <title>Application</title>
     <script type="text/javascript" src="js/myjs.js"></script>
     <link rel="stylesheet" href="css/mycss.css"/>
@@ -23,13 +23,40 @@
     <tr><td>Марк</td><td>очень</td><td>очень</td><td>тупой</td></tr>
     <tr><td>Марк</td><td>очень</td><td>очень</td><td>тупой</td></tr>
     <tr><td>Марк</td><td>очень</td><td>очень</td><td>тупой</td></tr>
-    <tr><td>Марк</td><td>очень</td><td>очень</td><td>тупой</td></tr>
-    <tr><td>Марк</td><td>очень</td><td>очень</td><td>тупой</td></tr>
+    <tr><td>Марк</td><td>очень</td><td>очень</td><td>тупой</td></tr><tr><td>Марк</td><td>очень</td><td>очень</td><td>тупой</td></tr>
     </table>
 
+    <table border="1" align="center" width="750" cellpadding="10" cellspacing="5">
+        <tr align="center"><th>Дата</th><th>Время</th><th>Продукт</th><th>Место</th><th colspan="3"> Жыры, Белки, Углеводы</th><th>Денги</th></tr>
+        <tr align="center"><td>12.12.2011</td><td>19.00</td><td>Кефир</td><td>Москва</td><td>0</td><td>5</td><td>2</td><td>30</td></tr>
+        <tr align="center"><td>13.12.2011</td><td>20.00</td><td>Молоко</td><td>Москва</td><td>3</td><td>6</td><td>2</td><td>30</td></tr>
+        <tr align="center"><td rowspan="2">14.12.2011</td><td>22.00</td><td>Сок</td><td>Москва</td><td>2</td><td>7</td><td>2</td><td>30</td></tr>
+        <tr align="center">                               <td>23.00</td><td>Йогурт</td><td>Москва</td><td>1</td><td>1</td><td>2</td><td>30</td></tr>
+    </table>﻿
 
 
-
+    <form name="test" action="" method="post">
+        <label for="name">Write your name:</label><input type="text" placeholder="Search" title="Search" name="name" id="name"/><br/><br/>
+        <label for="date">Write your birthday</label> <input type="date" name="date" id="date"/><br/><br/>
+        <label for="date">URL<label/><input type="url"/><br/><br/>
+            <input type="tel"/><br/><br/>
+            <input type="range"/><br/><br/>
+            <label for="state">MAle<label/><input type="radio" name="state" id="Male"/>
+                <label for="state">Female<label/><input type="radio"name="state" id="Female"/><br/><br/>
+                    <input type="password"/><br/><br/>
+                    <input type="number"/><br/><br/>
+                    <input type="file"/><br/><br/>
+                    <input type="color"/><br/><br/>
+                    <input type="image"/><br/><br/>
+                    <input type="file"/><br/><br/>
+                    Help<input type="checkbox"/><br/><br/>
+                    Help<input type="checkbox"/><br/><br/>
+                    Help<input type="checkbox"/><br/><br/>
+                    Help<input type="checkbox"/><br/><br/>
+                    <input type="button"value="Send Button"/><br/><br/>
+                    <input type="submit" value="Send Submit"/><br/><br/>
+                    <input type="reset"/><br/><br/>
+                    <textarea>"Exampl"</textarea>
 </body>
 
 
